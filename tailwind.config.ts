@@ -7,6 +7,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: [
+          "var(--font-geist-sans)",
           "-apple-system",
           "BlinkMacSystemFont",
           '"Segoe UI"',
@@ -14,6 +15,13 @@ const config: Config = {
           '"Helvetica Neue"',
           "Arial",
           "sans-serif",
+        ],
+        mono: [
+          "var(--font-geist-mono)",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "monospace",
         ],
       },
     },
