@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://date-calculator-gold.vercel.app";
+  const baseUrl = "https://date-calculator-xqrc.vercel.app";
   const tools = ["date-diff", "date-add-sub", "workdays", "age", "countdown", "cycle", "lunar"];
 
   return [
