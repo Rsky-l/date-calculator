@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://date-calculator-gold.vercel.app/sitemap.xml
